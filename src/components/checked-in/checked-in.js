@@ -2,10 +2,10 @@ import React from "react";
 import ResearchImage from "../../images/ux-research-img.jpg";
 function CheckedInCard() {
     return (
-        <div className="bg-white flex sm:block p-3 sm:px-6 sm:py-5 rounded-3xl w-full sm:w-2/5">
+        <div className="flex bg-white sm:block p-3 sm:px-6 sm:py-5 rounded-3xl w-full sm:w-2/5">
             <div className="w-72px h-72px sm:w-full sm:h-221px md:w-full relative mr-5 sm:mr-0 sm:mb-5 overflow-hidden rounded-xl bg-gray-200 session-feat-img">
                 <div className="w-full h-full sm:w-auto sm:h-auto flex flex-col items-center bg-indigo py-2 px-1 absolute top-0 justify-center bg-opacity-70 sm:bg-opacity-100 sm:right-4 rounded-b-xl text-center">
-                    <i className="">
+                    <i>
                         <svg
                             width="19"
                             height="16"
@@ -69,7 +69,6 @@ function CheckedInCard() {
                         In Progress
                     </span>
                     <a
-                        href=""
                         className="text-indigo text-sm ml-auto p-2 -mr-2 font-medium"
                     >
                         Join Now

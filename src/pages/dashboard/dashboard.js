@@ -4,16 +4,15 @@ import TopBar from "../../components/topbar/top-bar";
 import UpComingSeasonCard from "../../components/up-coming-season/upcoming-season";
 import CheckedInCard from "../../components/checked-in/checked-in";
 import ActiveProgramsCard from "../../components/active-programs/active-programs";
-import { ViewGridAddIcon } from "@heroicons/react/outline";
 
 function Dashboard() {
     return (
         <div className="flex w-full main-container">
             <Navigation />
-            <div className="main-h-screen relative lg:ml-240px md:ml-111px w-full text-left flex flex-col items-center h-full min-h-screen bg-mercury">
+            <div className="relative lg:ml-240px  md:ml-111px main-h-screen w-full text-left flex flex-col items-center h-full min-h-screen bg-mercury">
                 <TopBar />
-                <div className="man-content w-full h-full p-3 sm:p-10">
-                    <div className="flex w-full flex w-full pb-4 pt-2 sm:pb-3 sm:pt-0">
+                <div className=" w-full man-content h-full p-3 sm:p-10">
+                    <div className="w-full flex pb-4 pt-2 sm:pb-3 sm:pt-0">
                         <div className="font-bold text-xl">Hello, Mia!</div>
                         <a
                             href=""
@@ -32,7 +31,7 @@ function Dashboard() {
                                 />
                             </svg>
 
-                            <span className="ml-2 text-sm text-indigo font-semibold">
+                            <span className="text-sm ml-2 text-indigo font-semibold">
                                 Customize
                             </span>
                         </a>
